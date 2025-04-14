@@ -49,8 +49,25 @@ label {
     color: #333;
 }
 
+.radio-group {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.radio-group label {
+  font-size: 1em;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
 input[type="radio"] {
-    accent-color: #00bcd4;
+  accent-color: #00bcd4;
+  transform: scale(1.2);
 }
 
 #submit {
